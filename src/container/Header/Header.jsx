@@ -37,8 +37,10 @@ const Header = () => {
               </div>
             </div>
             <div className='tag-cmp app__flex'>
+              <p className='p-text'>full-stack developer</p>
               <p className='p-text'>Web Developer</p>
               <p className='p-text'>Freelancer</p>
+              <p className='p-text'>ui designer</p>
             </div>
         </div>
       </motion.div>
@@ -74,7 +76,7 @@ const Header = () => {
         className="app__header-circles"
       >
         {
-          [images.flutter, images.redux, images.sass].map((circle, index) => {
+          [images.api, images.react, images.git].map((circle, index) => {
             return <div className='circl-cmp app__flex' key={`circle-${index}`}>
               <img src={circle} alt='circle' />
             </div>
