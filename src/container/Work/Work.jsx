@@ -1,6 +1,8 @@
 import React from 'react'
 
 import './Work.scss'
+import { AppWrap } from '../../wrapper'
+
 
 const Work = () => {
   return (
@@ -8,4 +10,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default AppWrap(Work, 'work')
