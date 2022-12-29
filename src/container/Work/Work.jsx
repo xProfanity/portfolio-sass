@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
-import './Work.scss'
 import { AppWrap } from '../../wrapper'
 import { AiFillEye, AiFillGithub } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 import { urlFor, client } from '../../client'
 import { useEffect } from 'react'
+import './Work.scss'
 
 const Work = () => {
 
@@ -74,7 +74,7 @@ const Work = () => {
               >
                 <a href={work.projectLink} target='_blank' rel='noreferrer'>
                   <motion.div
-                    whileView={{scale: [0, 1]}}
+                    whileInView={{scale: [0, 1]}}
                     whileHover={{scale: [1, 0.9]}}
                     transition={{duration: 0.25}}
                     className='app__flex'
@@ -84,7 +84,7 @@ const Work = () => {
                 </a>
                 <a href={work.codeLink} target='_blank' rel='noreferrer'>
                   <motion.div
-                    whileView={{scale: [0, 1]}}
+                    whileInView={{scale: [0, 1]}}
                     whileHover={{scale: [1, 0.9]}}
                     transition={{duration: 0.25}}
                     className='app__flex'
