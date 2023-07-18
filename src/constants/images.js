@@ -34,6 +34,11 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import afk from '../assets/gerrardafk.png';
+
+import d1 from '../dawn/d1.jpg'
+import d2 from '../dawn/d2.jpg'
+import d3 from '../dawn/d3.jpg'
 
 export default {
   email,
@@ -69,4 +74,8 @@ export default {
   nb,
   skype,
   spotify,
+  afk,
+  d1,
+  d2,
+  d3
 };

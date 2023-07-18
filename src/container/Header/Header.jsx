@@ -56,7 +56,7 @@ const Header = () => {
         }}
         className="app__header-img"
       >
-        <img src={images.profile} alt='profile_bg' />
+        {/* <img src={images.d3} style={{borderRadius: '100%'}} alt='profile_bg' /> */}
         <motion.img
           whileInView={{
             scale: [0, 1]
@@ -66,8 +66,9 @@ const Header = () => {
             ease: 'easeInOut'
           }}
           className='overlay_circle'
-          src={images.circle}
+          src={images.d2}
           alt='profile_cicle'
+          style={{borderRadius: '100%'}}
         />
       </motion.div>
       <motion.div
